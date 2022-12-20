@@ -1,0 +1,251 @@
+
+/* Media Css */
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {	
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+}
+
+@media only screen and (max-width: 767px) {
+.row-eq-height {
+	display:inline-block;
+}
+
+.small-text-center {
+	text-align:center;
+}
+
+.small-text-left {
+	text-align:left;
+}
+
+.small-text-right {
+	text-align:right;
+}
+
+#header, #body, #footer {
+	width:100%;
+	background-size:100% 100%;
+}
+
+img {
+	max-width:100% !important;
+}
+
+td img {
+	max-width:100% !important;
+	width:100% !important;
+}
+
+#contentbox {
+	margin:0px auto;
+	padding:0px 7%;
+}
+
+h1 {
+	font-size:16px;
+	line-height:22px;
+}
+
+h2 {
+	font-size:14px;
+	line-height:18px;
+}
+
+p span {
+	font-size:15px !important;
+	text-align:center;
+	display:inline-block;
+}
+
+li span {
+	text-align:left;
+	font-size:15px !important;
+}
+
+h2 span {
+	font-size:12px !important;
+	text-align:center;
+	display:inline-block;
+}
+
+
+li h2 span {
+	font-size:15px !important;
+	text-align:center;
+	display:inline-block;
+}
+.johnsonbox {
+	padding-left:10px;
+	padding-right:10px;
+	width:87%;
+}
+
+table {
+	width:100% !important;
+	text-align:center;
+}
+
+table td {
+	background-size:100% 100% !important;
+}
+
+table td p {
+	padding:0px 13px;
+	width:80%;
+	display:inline-block;
+}
+	
+
+.table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+/* New Css */
+#header {
+	background-size:100% auto;
+	background-color:#000;
+	background-repeat:no-repeat;
+	background-position:bottom center;
+	height:107px;
+}
+
+#footer {
+	background-size:100% 190px;
+	background-color:#000;
+	background-repeat:no-repeat;
+	background-position:top center;
+}
+
+#footerbg, #footer {
+	height:190px;
+}
+
+#footer .text {
+    margin-top: 142px;
+}
+
+span.text-left {
+	text-align:left;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1169px) {
+#header, #body, #footer {
+	width:750px;
+	background-size:100% 100%;
+}
+img {
+	max-width:100% !important;
+}
+
+td img {
+	max-width:100% !important;
+	width:100% !important;
+}
+
+table {
+	width:100% !important;
+}
+
+table td {
+	background-size:100% 100% !important;
+}
+
+table td p {
+	padding:0px 43px;
+}
+
+h1 {
+	font-size:18px;
+}
+
+h2 {
+	font-size:18px;
+}
+
+p span {
+	font-size:19px !important;
+}
+
+li span {
+	font-size:19px !important;
+}
+
+h2 span {
+	font-size:15px !important;
+	display:inline-block;
+}
+
+}
+
+/* New Media Queries for header */
+@media only screen and (min-width:320px) and (max-width: 359px) {
+#header {
+	height:107px;
+}
+}
+
+@media only screen and (min-width:360px) and (max-width: 405px) {
+#header {
+	height:128px;
+}
+}
+
+@media only screen and (min-width:406px) and (max-width: 456px) {
+#header {
+	height:138px;
+}
+}
+
+@media only screen and (min-width:457px) and (max-width: 479px) {
+#header {
+	height:158px;
+}
+}
+
+@media only screen and (min-width:480px) and (max-width: 540px) {
+#header {
+	height:177px;
+}
+}
+
+@media only screen and (min-width:541px) and (max-width: 567px) {
+#header {
+	height:195px;
+}
+}
+
+@media only screen and (min-width:568px) and (max-width:610px) {
+#header {
+	height:190px;
+}
+}
+
+@media only screen and (min-width:611px) and (max-width:679px) {
+#header {
+	height:210px;
+}
+}
+
+@media only screen and (min-width:680px) and (max-width: 767px) {
+#header {
+	height:240px;
+}
+}
